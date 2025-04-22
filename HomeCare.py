@@ -49,8 +49,8 @@ from telegram.ext.filters import TEXT, COMMAND
 ) = range(21)
 
 # Doctor chat ID (set your actual doctor's chat ID here)
-DOCTOR1_CHAT_ID = "1560401585" #ilker
-DOCTOR2_CHAT_ID = "151797397" #Amr: 
+DOCTOR1_CHAT_ID = ""
+DOCTOR2_CHAT_ID = ""
 
 # Safe ranges for parameters
 PARAMETER_RANGES = {
@@ -1073,7 +1073,12 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 def main():
     """Run the bot."""
-    application = Application.builder().token("7858545951:AAGW9ErUT7bkm04AZj13V18nfe1d1tFAJQM").build()
+    # Create the application and pass it your bot's token
+    # and the chat ID of the doctor
+    # Set up the application with the bot token and chat ID
+    # Replace with your bot token and doctor chat IDs
+    Bot_token = "" # Your bot token here
+    application = Application.builder().token(Bot_token).build()
     
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
