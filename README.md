@@ -6,12 +6,12 @@ HomecareBot is a Telegram bot designed to assist patients during their recovery 
 
 ## Features
 
-- Medication reminders
-- Exercise and activity guidance
-- Wound care instructions
+- Medication reminders (soon)
+- Exercise and activity guidance (soon)
+- Wound care instructions (soon)
 - Symptom monitoring alerts
-- Follow-up appointment reminders
-- Emergency contact information
+- Follow-up appointment reminders (soon)
+- Emergency contact information (soon)
 
 ## Requirements
 
@@ -40,17 +40,13 @@ HomecareBot is a Telegram bot designed to assist patients during their recovery 
 2. Add your bot token to the configuration file or directly in the code
 3. Run the bot from command line:
    ```
-   python bot.py
+   python HomeCare.py
    ```
 4. Interact with the bot through your Telegram app
 
 ## Commands
 
 - `/start` - Begin interaction with the bot
-- `/help` - Get information about available commands
-- `/reminders` - Set up medication or appointment reminders
-- `/info` - Get educational information about post-surgery care
-- `/emergency` - Access emergency contact information
 
 ## Contributing
 
